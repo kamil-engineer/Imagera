@@ -30,5 +30,11 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "vitest.config.ts", "vitest.setup.ts"]
+  "include": [
+    "src",
+    "vitest.config.ts",
+    "vitest.setup.ts",
+    "tests",
+    "playwright.config.ts"
+  ]
 }
